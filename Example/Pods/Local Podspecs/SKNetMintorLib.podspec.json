@@ -1,0 +1,37 @@
+{
+  "name": "SKNetMintorLib",
+  "version": "1.0.0",
+  "summary": "A short description of SKNetMintorLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shuaike/SKNetMintorLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shuaike": "718401263@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/shuaike/SKNetMintorLib.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SKNetMintorLib/Classes/**/*",
+  "resource_bundles": {
+    "SKNetMintorLib": [
+      "SKNetMintorLib/Assets/**/*"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "MJExtension": [
+
+    ],
+    "Reachability": [
+
+    ]
+  },
+  "libraries": "sqlite3"
+}

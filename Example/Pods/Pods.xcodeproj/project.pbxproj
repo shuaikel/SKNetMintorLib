@@ -1,0 +1,1297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BCB9A795A9F6FCFE32F445FF9BD723 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DD6318F28F0DA3B2C345A30D596954 /* MJProperty.m */; };
+		052F3ECD244E4B8EFE3FCB8B6DAA34B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EDAA79EB8B711724CF64A99C839B36 /* SystemConfiguration.framework */; };
+		0B492FFEC27BBC3C6E2B8F0333B05FF6 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE22DA1B87E00663A749F55CB9B1FA4 /* MJPropertyKey.m */; };
+		0BD241103A75B1EF391C8C974FB03CA4 /* QSGZipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D52E73CAFA74F5FF339CED4A83D81003 /* QSGZipUtility.m */; };
+		0CAA96EAD1425280D3D368E7D832AB4C /* QSEventTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 073771E236DF69B20DC00F419AD9BAA0 /* QSEventTracker.m */; };
+		0D0002442FEF5B25939C8BBDD869483C /* Pods-SKNetMintorLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3FF363D7E172C116EFA7D80DED51EC /* Pods-SKNetMintorLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FF2C57630806BA1FBBC3D8AE73030F6 /* QSFileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FCABA9438D328F5CC9DB409732485B /* QSFileStore.m */; };
+		1339E6C9911F6C3F413CF37B1DB1207A /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B22B15BE360EBD60008BF0504F79DB /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		151F1C2D63F209789434CEC8A1A8F1FB /* QSNetMintorConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A6BE5C476AA66313445CD9B1751CEA /* QSNetMintorConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24B8486960821C2E05BFB3013E95DA79 /* SKNetMintorLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib.bundle */; };
+		296005741ABAEB1ECBAD73392B97C1DC /* QSNetDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA32F59C10EBECDFA086AB5297C1FBB /* QSNetDataBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F3065FE6A069BED37A0B1B0FD2D8841 /* QSNetDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DA675B156219299E61B10F9CC0208 /* QSNetDataBase.m */; };
+		33DC154CACD614244DE45A53CE08EF0D /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 468F697EFED798BBA9D964508E269D1D /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34702056D06A8337E5A38D308732C779 /* SKNetMintorLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 452109AAF78778506C61BD494D42E3EE /* SKNetMintorLib-dummy.m */; };
+		37F6A3BECF37C125152A3BBA232AD7DC /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A89FF64F16F5B2D11432A8EDC05A9C1 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EC3D7C6B1B72AA31E5049EFA7FB41FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B3111F52115980AD22CB0ABEDF3D98 /* UIKit.framework */; };
+		4043FBF2E3FE624712AEBF86AEAB4416 /* QSEventTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = FD114DE939A8D81BB13991E0D5DC0A33 /* QSEventTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4062F43B646EF970C0FC4EE69A27511D /* QSNetEventRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9C5430F274329F3B7C04A11A42F1C /* QSNetEventRecordModel.m */; };
+		44F4F19AD4287696C5F58310CA90D384 /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB19847231E149084481F49579BB0C4E /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5159E7F7D6474C3EA614C74F4726CB10 /* QSNetEventStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D0FE57CFE7CAA0AD5A368DE78A59A /* QSNetEventStore.m */; };
+		5807E0632368B365308B44C5AE6973BD /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F2646477E10A183C3346BB94CB100016 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE874C1D62FEE28E0C4FCDCDC17DE26 /* NSString+QSFlushRecordHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA543F488DFD0450FACCC871F214360 /* NSString+QSFlushRecordHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6130390A28FACC2AAB743924489049C0 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 917B30A52618BA90B8D86052523C0327 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C91268F00776874F9E217637AF4D97 /* NSString+QSFlushRecordHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A724091B9FF12D66AEC226D2B2C48 /* NSString+QSFlushRecordHash.m */; };
+		644ED9B098E888EBC0954AFB0C8AA6D4 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD2565299E04970B1AC0EA1F7184892 /* NSObject+MJProperty.m */; };
+		6A45041B4F3DC7BDB2406AB00F2F7470 /* Pods-SKNetMintorLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B69C3FABCB141F64AD44E8E0C5FC96 /* Pods-SKNetMintorLib_Example-dummy.m */; };
+		6B22D895CE423C00B2DDAC0EA08F4D7C /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 555C4C7EBAF946E1E5B7C1DB0BC0B689 /* NSString+MJExtension.m */; };
+		6E5BA38F45C9B904BAA86970852F0A9E /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A2584F56B98ACC4437AF559317BACF6E /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C4A1B74FD2BC0938E353B2C53B094CC /* SKSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = AD95CFAAF877C1E3492892DA18662B2D /* SKSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81009737F0286933BBBB62EF989F1593 /* QSNetEventRecordModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A48D2AAD90B52BBD821363BE56E8B4CB /* QSNetEventRecordModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86469EDD5558A59BA4109620C6724E8B /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 152CC5DD4413D6630D273F42EE7F6E89 /* MJExtension-dummy.m */; };
+		886B4AC9B1FE36EFF7CD38820E10BFAD /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4CA963109E5E37C6EB29B982A7F0AD /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C403AA7D32772AB3A3D4E60F41FE066 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFAEB667C30B618194148AAEE99B8B2 /* MJExtensionConst.m */; };
+		8DE19395A7F8F8200080DEEE4C7A257F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB930D9DE11DC0D61B42EE8BC99C068 /* Reachability.m */; };
+		94EEDF6D32DFE12B049F9FDF67F48373 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799EDABAF5E136C27C5FA32C1C17181 /* MJPropertyType.m */; };
+		997795BA486CFE8E8F47247BA54075F8 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE8BD7091A6517AA9141A15D3E99A5D /* NSObject+MJKeyValue.m */; };
+		A36B349F4F080AAA4038E80CBFCD0140 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B490307323E313459C016CC9E3BDD6 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A51A35AB6D29EC29E2D6738B0993E9DC /* QSNetEventStore.h in Headers */ = {isa = PBXBuildFile; fileRef = F62B8716D0B0406EC6AF68ABDADA1252 /* QSNetEventStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC06E00C045EBFF6245AF0DA32706372 /* QSNetAnalyticsService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61ABF4FFCC114F05446C7F8AB980B3 /* QSNetAnalyticsService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC437AB3F30FD2D50B2F02256A50BC22 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = AE93AB583B62DE8F34FCCD7A9404D6D4 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3E795B489EA2B7EBD380E8BBB29B66 /* QSFileStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 196A955E2F048A6000C09A0764D3BF72 /* QSFileStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38AEAB758CBC635199FFF0B204DC0DD /* SKNetMintorLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 511DBD9CB4A61DB9A80FFE11B517C4A6 /* SKNetMintorLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBC4009BBFEDF14F31EF1285D1C6F452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14008B466AD2D8767428022FF895BB8 /* Foundation.framework */; };
+		BCC157295198B1E3E51C6EE4E70940CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14008B466AD2D8767428022FF895BB8 /* Foundation.framework */; };
+		C3296E1E1BCEAEE6294A3FE8562C0EFC /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CAC2C94CE33422BF8FAE89804C81F3 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA59C86DFA35EE9D13FB73DC45BA788D /* QSSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2136E57A2CD563879D0C4D261B465ED1 /* QSSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA797C292CF129755168E042F96531E /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3497E0DB2E74E2BEB96168101AE170F4 /* NSObject+MJCoding.m */; };
+		CCD4362E8522B5BC2820666098E91B93 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = AC111921302D48A5FA6FD7F195262C9D /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE9F398B1DAD84FEA79B6E830A05E852 /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52644B252DD7D75D9E38DA1D36DDA095 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D194133AEB4B0F7E7743130471DB9A85 /* QSSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7895056205D2B75388B37068A20B5F /* QSSecurityPolicy.m */; };
+		D3E6EFAD8CB2B547093944B99DF6708E /* QSNetAnalyticsService.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C96E5DDF86559EDDB958F363349B3E /* QSNetAnalyticsService.m */; };
+		D451025A4FE37FC2C81131F2470D001D /* QSNetSessionService.m in Sources */ = {isa = PBXBuildFile; fileRef = AE081C4BB154F7F5010347120BF803C8 /* QSNetSessionService.m */; };
+		D5245783DD6091088CC902AFAB65542D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14008B466AD2D8767428022FF895BB8 /* Foundation.framework */; };
+		D6B9216743757D8CCF0DC1BAFAAEFBE6 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2473141B7D2AD7B8C8B9083C47CA61 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D99ED522D09512A5E4F6BE1C654C90E1 /* json in Resources */ = {isa = PBXBuildFile; fileRef = 166BE8EBD3402BB220B13B11EBAB1306 /* json */; };
+		E2135621204107C9C4748667494DC973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14008B466AD2D8767428022FF895BB8 /* Foundation.framework */; };
+		E43824DC0A8C4D932E63C4EC2B2286A3 /* QSNetSessionService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F448180B66380AB5875D55B1DA54916 /* QSNetSessionService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E46F24BE0B8358552D63E9F2699C71D0 /* QSEventFlush.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E30CBC129365BAA76BCDDFF5C032A9 /* QSEventFlush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E811941E2ACD5310D24D107FA8FCD6FA /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F21D9727FC85C370EACFEDF41C2734 /* Reachability-dummy.m */; };
+		EB0F1D8E372E3AE876E444EA2ACCC433 /* qs_mcc_mnc_mini.json in Resources */ = {isa = PBXBuildFile; fileRef = 9850A2904FA847AAA21C105E8C683AAA /* qs_mcc_mnc_mini.json */; };
+		F0D6C8DDEFDF0F3A615478F18522F28C /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2588303AEEE6E5386F039CB1173CA535 /* MJFoundation.m */; };
+		F1D87801447F8DD985630C5665F159C3 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D207AC8426F8AAFE21D1C6E5E3CADC1 /* NSObject+MJClass.m */; };
+		F5510E6F351BB792D5194F3874451942 /* QSGZipUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D773D5B1A5BBE286C84F89180A0167A7 /* QSGZipUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD283B2F77C21CBA844B410A3CF6FAD /* QSEventFlush.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4FE5E80683A8C581695357DE2833A /* QSEventFlush.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A735BB675C790698ECF080C9F5E77D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F9352F419A1E6C8E5A3745336B41D81;
+			remoteInfo = "SKNetMintorLib-SKNetMintorLib";
+		};
+		3FF1876A3FC2ECC4BDA5A51839B278C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		5D0DA0AD9C27DA337124D33F6BD2DF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA047C0F5E4106F3904E8497FA17F97;
+			remoteInfo = Reachability;
+		};
+		8B46FBA31F4064B22625E166603C63EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA047C0F5E4106F3904E8497FA17F97;
+			remoteInfo = Reachability;
+		};
+		AF1CDDFC92F888A49A775FD985D8A89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		E0522F3E7A9BF26A30EAE9ED6705CC31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0772F96A671D38CB333D1B264C46AE1B;
+			remoteInfo = SKNetMintorLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DD6318F28F0DA3B2C345A30D596954 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		073771E236DF69B20DC00F419AD9BAA0 /* QSEventTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSEventTracker.m; path = SKNetMintorLib/Classes/QSEventTracker.m; sourceTree = "<group>"; };
+		0AB930D9DE11DC0D61B42EE8BC99C068 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0F448180B66380AB5875D55B1DA54916 /* QSNetSessionService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSNetSessionService.h; path = SKNetMintorLib/Classes/QSNetSessionService.h; sourceTree = "<group>"; };
+		152CC5DD4413D6630D273F42EE7F6E89 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		166BE8EBD3402BB220B13B11EBAB1306 /* json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = json; path = SKNetMintorLib/Assets/json; sourceTree = "<group>"; };
+		180A724091B9FF12D66AEC226D2B2C48 /* NSString+QSFlushRecordHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QSFlushRecordHash.m"; path = "SKNetMintorLib/Classes/NSString+QSFlushRecordHash.m"; sourceTree = "<group>"; };
+		196A955E2F048A6000C09A0764D3BF72 /* QSFileStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSFileStore.h; path = SKNetMintorLib/Classes/QSFileStore.h; sourceTree = "<group>"; };
+		1DE8C27BC6DACBF5239FA726CD46E6D3 /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
+		1FF5B296FDCD1B7EC80A4FB890152124 /* Pods-SKNetMintorLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKNetMintorLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2136E57A2CD563879D0C4D261B465ED1 /* QSSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSSecurityPolicy.h; path = SKNetMintorLib/Classes/QSSecurityPolicy.h; sourceTree = "<group>"; };
+		242032D6D36E0EEC0ED9D248507AAB89 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		24CAC2C94CE33422BF8FAE89804C81F3 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2588303AEEE6E5386F039CB1173CA535 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B61ABF4FFCC114F05446C7F8AB980B3 /* QSNetAnalyticsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSNetAnalyticsService.h; path = SKNetMintorLib/Classes/QSNetAnalyticsService.h; sourceTree = "<group>"; };
+		2E087C4147A552525AAF8C6EEBF3BFBB /* Pods-SKNetMintorLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKNetMintorLib_Example-Info.plist"; sourceTree = "<group>"; };
+		30D4FE5E80683A8C581695357DE2833A /* QSEventFlush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSEventFlush.m; path = SKNetMintorLib/Classes/QSEventFlush.m; sourceTree = "<group>"; };
+		32EB03DE5AAC68B97699446E3FE1C0BA /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		3497E0DB2E74E2BEB96168101AE170F4 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		34FFC9BD3E00B5F2E4C3353C49DA1D2C /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
+		38DFD4A5BBD2AFB5E2CFB14F9273D335 /* SKNetMintorLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SKNetMintorLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38F77ED39059B9CFD6C1BBD3348966A3 /* Pods-SKNetMintorLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKNetMintorLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B4CA963109E5E37C6EB29B982A7F0AD /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		3BA543F488DFD0450FACCC871F214360 /* NSString+QSFlushRecordHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QSFlushRecordHash.h"; path = "SKNetMintorLib/Classes/NSString+QSFlushRecordHash.h"; sourceTree = "<group>"; };
+		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B69C3FABCB141F64AD44E8E0C5FC96 /* Pods-SKNetMintorLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKNetMintorLib_Example-dummy.m"; sourceTree = "<group>"; };
+		43D9C5430F274329F3B7C04A11A42F1C /* QSNetEventRecordModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSNetEventRecordModel.m; path = SKNetMintorLib/Classes/QSNetEventRecordModel.m; sourceTree = "<group>"; };
+		452109AAF78778506C61BD494D42E3EE /* SKNetMintorLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKNetMintorLib-dummy.m"; sourceTree = "<group>"; };
+		45BF6BFD2E662BC8BB9E4F3A01C110B3 /* ResourceBundle-SKNetMintorLib-SKNetMintorLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SKNetMintorLib-SKNetMintorLib-Info.plist"; sourceTree = "<group>"; };
+		45C3F88FE9E928ABE6EF3A5A9721842F /* Pods-SKNetMintorLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKNetMintorLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		468F697EFED798BBA9D964508E269D1D /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		4A7895056205D2B75388B37068A20B5F /* QSSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSSecurityPolicy.m; path = SKNetMintorLib/Classes/QSSecurityPolicy.m; sourceTree = "<group>"; };
+		4B2473141B7D2AD7B8C8B9083C47CA61 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		4D207AC8426F8AAFE21D1C6E5E3CADC1 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		4FFAEB667C30B618194148AAEE99B8B2 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		511DBD9CB4A61DB9A80FFE11B517C4A6 /* SKNetMintorLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKNetMintorLib-umbrella.h"; sourceTree = "<group>"; };
+		52644B252DD7D75D9E38DA1D36DDA095 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
+		53B22B15BE360EBD60008BF0504F79DB /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		555C4C7EBAF946E1E5B7C1DB0BC0B689 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		5799EDABAF5E136C27C5FA32C1C17181 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		64B490307323E313459C016CC9E3BDD6 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		677E10963823879B01DBCE19E2F67525 /* Reachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.release.xcconfig; sourceTree = "<group>"; };
+		692B8F1331637AF4B8F4BF41AC458990 /* SKNetMintorLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKNetMintorLib-prefix.pch"; sourceTree = "<group>"; };
+		6E5D0FE57CFE7CAA0AD5A368DE78A59A /* QSNetEventStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSNetEventStore.m; path = SKNetMintorLib/Classes/QSNetEventStore.m; sourceTree = "<group>"; };
+		70FCABA9438D328F5CC9DB409732485B /* QSFileStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSFileStore.m; path = SKNetMintorLib/Classes/QSFileStore.m; sourceTree = "<group>"; };
+		78F21D9727FC85C370EACFEDF41C2734 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKNetMintorLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7BEE82A1FFE4F1D87041EB71F3ECA3 /* SKNetMintorLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKNetMintorLib.debug.xcconfig; sourceTree = "<group>"; };
+		823A4A2CE0B1A3AFF74B62645A6F3859 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		859E34643EC9602E23B9306C263DA9ED /* Pods-SKNetMintorLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKNetMintorLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86F1B83CAD69C0BCA603A3447C69E361 /* SKNetMintorLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKNetMintorLib-Info.plist"; sourceTree = "<group>"; };
+		89E30CBC129365BAA76BCDDFF5C032A9 /* QSEventFlush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSEventFlush.h; path = SKNetMintorLib/Classes/QSEventFlush.h; sourceTree = "<group>"; };
+		8A89FF64F16F5B2D11432A8EDC05A9C1 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		8F09415FEFA5B304DC91440B4415F6E5 /* Pods-SKNetMintorLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKNetMintorLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		917B30A52618BA90B8D86052523C0327 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		950AF4CDFBEA96634770093A87CBFDEA /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
+		97AC5F508FA623885A9F7FCBDB1B21E9 /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
+		9850A2904FA847AAA21C105E8C683AAA /* qs_mcc_mnc_mini.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = qs_mcc_mnc_mini.json; sourceTree = "<group>"; };
+		99A6BE5C476AA66313445CD9B1751CEA /* QSNetMintorConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSNetMintorConfig.h; path = SKNetMintorLib/Classes/QSNetMintorConfig.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EE22DA1B87E00663A749F55CB9B1FA4 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		A2584F56B98ACC4437AF559317BACF6E /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		A2C96E5DDF86559EDDB958F363349B3E /* QSNetAnalyticsService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSNetAnalyticsService.m; path = SKNetMintorLib/Classes/QSNetAnalyticsService.m; sourceTree = "<group>"; };
+		A4370AD1F43931E91804EF7E104178CD /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
+		A48D2AAD90B52BBD821363BE56E8B4CB /* QSNetEventRecordModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSNetEventRecordModel.h; path = SKNetMintorLib/Classes/QSNetEventRecordModel.h; sourceTree = "<group>"; };
+		AC111921302D48A5FA6FD7F195262C9D /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		AD95CFAAF877C1E3492892DA18662B2D /* SKSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSingleton.h; path = SKNetMintorLib/Classes/SKSingleton.h; sourceTree = "<group>"; };
+		AE081C4BB154F7F5010347120BF803C8 /* QSNetSessionService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSNetSessionService.m; path = SKNetMintorLib/Classes/QSNetSessionService.m; sourceTree = "<group>"; };
+		AE93AB583B62DE8F34FCCD7A9404D6D4 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		AFA32F59C10EBECDFA086AB5297C1FBB /* QSNetDataBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSNetDataBase.h; path = SKNetMintorLib/Classes/QSNetDataBase.h; sourceTree = "<group>"; };
+		B5FDBB166192CAE3E37E0AD67810ABF1 /* SKNetMintorLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKNetMintorLib.modulemap; sourceTree = "<group>"; };
+		B6D118E791DF419E948FC2E6330CC601 /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
+		BE021BCED4496961B73E196599F6E6D0 /* Pods-SKNetMintorLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKNetMintorLib_Example.modulemap"; sourceTree = "<group>"; };
+		BFFD80E79B530426BBFEAFD42A3828D4 /* SKNetMintorLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKNetMintorLib; path = SKNetMintorLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB19847231E149084481F49579BB0C4E /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		D52E73CAFA74F5FF339CED4A83D81003 /* QSGZipUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSGZipUtility.m; path = SKNetMintorLib/Classes/QSGZipUtility.m; sourceTree = "<group>"; };
+		D5AC938DBF4D05A7B0DE07EF7B30DA68 /* SKNetMintorLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKNetMintorLib.release.xcconfig; sourceTree = "<group>"; };
+		D773D5B1A5BBE286C84F89180A0167A7 /* QSGZipUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSGZipUtility.h; path = SKNetMintorLib/Classes/QSGZipUtility.h; sourceTree = "<group>"; };
+		DAD2565299E04970B1AC0EA1F7184892 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		DF3FF363D7E172C116EFA7D80DED51EC /* Pods-SKNetMintorLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKNetMintorLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		E0EDAA79EB8B711724CF64A99C839B36 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		E4B3111F52115980AD22CB0ABEDF3D98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EDDE91248B19F1898019FC92E1DD29B4 /* Pods-SKNetMintorLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKNetMintorLib_Example"; path = Pods_SKNetMintorLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F079BFD9F97E15B8310D74EFCDC28E16 /* Reachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.debug.xcconfig; sourceTree = "<group>"; };
+		F14008B466AD2D8767428022FF895BB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F2646477E10A183C3346BB94CB100016 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		F285878F9399D6E4D39965EE670F92BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F62B8716D0B0406EC6AF68ABDADA1252 /* QSNetEventStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSNetEventStore.h; path = SKNetMintorLib/Classes/QSNetEventStore.h; sourceTree = "<group>"; };
+		FC7DA675B156219299E61B10F9CC0208 /* QSNetDataBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSNetDataBase.m; path = SKNetMintorLib/Classes/QSNetDataBase.m; sourceTree = "<group>"; };
+		FD114DE939A8D81BB13991E0D5DC0A33 /* QSEventTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSEventTracker.h; path = SKNetMintorLib/Classes/QSEventTracker.h; sourceTree = "<group>"; };
+		FFE8BD7091A6517AA9141A15D3E99A5D /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD5172434FBE09F95F39A1DF055EAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC157295198B1E3E51C6EE4E70940CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143D6DF96667AFAB6C033D0F8F663BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC4009BBFEDF14F31EF1285D1C6F452 /* Foundation.framework in Frameworks */,
+				3EC3D7C6B1B72AA31E5049EFA7FB41FF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EBB2EBF47613FD659F77CB43FF7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2135621204107C9C4748667494DC973 /* Foundation.framework in Frameworks */,
+				052F3ECD244E4B8EFE3FCB8B6DAA34B4 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AF06A7403625E7F72F0B1C7F93C819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5245783DD6091088CC902AFAB65542D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8ED24DB3E68ABA9960871D01A36001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6256FDE1A7A23A73331CC3B521178B0C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		082E83F41C6527CEE8397C1D01FA95EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F859197B4A5C475163CC9BA4E11C7416 /* MJExtension */,
+				808905E7C89F697379A0D28EFBB9E90A /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		324A055C814CCEF8068C40FC01064433 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F285878F9399D6E4D39965EE670F92BA /* LICENSE */,
+				823A4A2CE0B1A3AFF74B62645A6F3859 /* README.md */,
+				38DFD4A5BBD2AFB5E2CFB14F9273D335 /* SKNetMintorLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3B25F8F7708B9B7B0BA7A58959596534 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45BF6BFD2E662BC8BB9E4F3A01C110B3 /* ResourceBundle-SKNetMintorLib-SKNetMintorLib-Info.plist */,
+				B5FDBB166192CAE3E37E0AD67810ABF1 /* SKNetMintorLib.modulemap */,
+				452109AAF78778506C61BD494D42E3EE /* SKNetMintorLib-dummy.m */,
+				86F1B83CAD69C0BCA603A3447C69E361 /* SKNetMintorLib-Info.plist */,
+				692B8F1331637AF4B8F4BF41AC458990 /* SKNetMintorLib-prefix.pch */,
+				511DBD9CB4A61DB9A80FFE11B517C4A6 /* SKNetMintorLib-umbrella.h */,
+				7D7BEE82A1FFE4F1D87041EB71F3ECA3 /* SKNetMintorLib.debug.xcconfig */,
+				D5AC938DBF4D05A7B0DE07EF7B30DA68 /* SKNetMintorLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKNetMintorLib";
+			sourceTree = "<group>";
+		};
+		4C335C3A25671A27B1FF48270ED649B7 /* SKNetMintorLib */ = {
+			isa = PBXGroup;
+			children = (
+				166BE8EBD3402BB220B13B11EBAB1306 /* json */,
+				3BA543F488DFD0450FACCC871F214360 /* NSString+QSFlushRecordHash.h */,
+				180A724091B9FF12D66AEC226D2B2C48 /* NSString+QSFlushRecordHash.m */,
+				89E30CBC129365BAA76BCDDFF5C032A9 /* QSEventFlush.h */,
+				30D4FE5E80683A8C581695357DE2833A /* QSEventFlush.m */,
+				FD114DE939A8D81BB13991E0D5DC0A33 /* QSEventTracker.h */,
+				073771E236DF69B20DC00F419AD9BAA0 /* QSEventTracker.m */,
+				196A955E2F048A6000C09A0764D3BF72 /* QSFileStore.h */,
+				70FCABA9438D328F5CC9DB409732485B /* QSFileStore.m */,
+				D773D5B1A5BBE286C84F89180A0167A7 /* QSGZipUtility.h */,
+				D52E73CAFA74F5FF339CED4A83D81003 /* QSGZipUtility.m */,
+				2B61ABF4FFCC114F05446C7F8AB980B3 /* QSNetAnalyticsService.h */,
+				A2C96E5DDF86559EDDB958F363349B3E /* QSNetAnalyticsService.m */,
+				AFA32F59C10EBECDFA086AB5297C1FBB /* QSNetDataBase.h */,
+				FC7DA675B156219299E61B10F9CC0208 /* QSNetDataBase.m */,
+				A48D2AAD90B52BBD821363BE56E8B4CB /* QSNetEventRecordModel.h */,
+				43D9C5430F274329F3B7C04A11A42F1C /* QSNetEventRecordModel.m */,
+				F62B8716D0B0406EC6AF68ABDADA1252 /* QSNetEventStore.h */,
+				6E5D0FE57CFE7CAA0AD5A368DE78A59A /* QSNetEventStore.m */,
+				99A6BE5C476AA66313445CD9B1751CEA /* QSNetMintorConfig.h */,
+				0F448180B66380AB5875D55B1DA54916 /* QSNetSessionService.h */,
+				AE081C4BB154F7F5010347120BF803C8 /* QSNetSessionService.m */,
+				2136E57A2CD563879D0C4D261B465ED1 /* QSSecurityPolicy.h */,
+				4A7895056205D2B75388B37068A20B5F /* QSSecurityPolicy.m */,
+				AD95CFAAF877C1E3492892DA18662B2D /* SKSingleton.h */,
+				F861B63D04F68170C7F2211B44285824 /* json */,
+				324A055C814CCEF8068C40FC01064433 /* Pod */,
+				3B25F8F7708B9B7B0BA7A58959596534 /* Support Files */,
+			);
+			name = SKNetMintorLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6256FDE1A7A23A73331CC3B521178B0C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F14008B466AD2D8767428022FF895BB8 /* Foundation.framework */,
+				E0EDAA79EB8B711724CF64A99C839B36 /* SystemConfiguration.framework */,
+				E4B3111F52115980AD22CB0ABEDF3D98 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7139020F1790A0A763EAA2EE585E9849 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C335C3A25671A27B1FF48270ED649B7 /* SKNetMintorLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		808905E7C89F697379A0D28EFBB9E90A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				24CAC2C94CE33422BF8FAE89804C81F3 /* Reachability.h */,
+				0AB930D9DE11DC0D61B42EE8BC99C068 /* Reachability.m */,
+				BAEA3D03C87931952A4CBEEF20023F5F /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		86B0B5C32B2DC5E045D546667663DF72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4370AD1F43931E91804EF7E104178CD /* MJExtension.modulemap */,
+				152CC5DD4413D6630D273F42EE7F6E89 /* MJExtension-dummy.m */,
+				97AC5F508FA623885A9F7FCBDB1B21E9 /* MJExtension-Info.plist */,
+				242032D6D36E0EEC0ED9D248507AAB89 /* MJExtension-prefix.pch */,
+				52644B252DD7D75D9E38DA1D36DDA095 /* MJExtension-umbrella.h */,
+				34FFC9BD3E00B5F2E4C3353C49DA1D2C /* MJExtension.debug.xcconfig */,
+				B6D118E791DF419E948FC2E6330CC601 /* MJExtension.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		9784687996C319AEB8A864F4515808EA /* Pods-SKNetMintorLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BE021BCED4496961B73E196599F6E6D0 /* Pods-SKNetMintorLib_Example.modulemap */,
+				859E34643EC9602E23B9306C263DA9ED /* Pods-SKNetMintorLib_Example-acknowledgements.markdown */,
+				38F77ED39059B9CFD6C1BBD3348966A3 /* Pods-SKNetMintorLib_Example-acknowledgements.plist */,
+				42B69C3FABCB141F64AD44E8E0C5FC96 /* Pods-SKNetMintorLib_Example-dummy.m */,
+				1FF5B296FDCD1B7EC80A4FB890152124 /* Pods-SKNetMintorLib_Example-frameworks.sh */,
+				2E087C4147A552525AAF8C6EEBF3BFBB /* Pods-SKNetMintorLib_Example-Info.plist */,
+				DF3FF363D7E172C116EFA7D80DED51EC /* Pods-SKNetMintorLib_Example-umbrella.h */,
+				45C3F88FE9E928ABE6EF3A5A9721842F /* Pods-SKNetMintorLib_Example.debug.xcconfig */,
+				8F09415FEFA5B304DC91440B4415F6E5 /* Pods-SKNetMintorLib_Example.release.xcconfig */,
+			);
+			name = "Pods-SKNetMintorLib_Example";
+			path = "Target Support Files/Pods-SKNetMintorLib_Example";
+			sourceTree = "<group>";
+		};
+		BAEA3D03C87931952A4CBEEF20023F5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				950AF4CDFBEA96634770093A87CBFDEA /* Reachability.modulemap */,
+				78F21D9727FC85C370EACFEDF41C2734 /* Reachability-dummy.m */,
+				1DE8C27BC6DACBF5239FA726CD46E6D3 /* Reachability-Info.plist */,
+				32EB03DE5AAC68B97699446E3FE1C0BA /* Reachability-prefix.pch */,
+				CB19847231E149084481F49579BB0C4E /* Reachability-umbrella.h */,
+				F079BFD9F97E15B8310D74EFCDC28E16 /* Reachability.debug.xcconfig */,
+				677E10963823879B01DBCE19E2F67525 /* Reachability.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7139020F1790A0A763EAA2EE585E9849 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				082E83F41C6527CEE8397C1D01FA95EF /* Pods */,
+				EEBDF0BCF6CA891CD756EABBA870FEFF /* Products */,
+				D706E8545AC8C7F529C3EA97A75B94B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D706E8545AC8C7F529C3EA97A75B94B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9784687996C319AEB8A864F4515808EA /* Pods-SKNetMintorLib_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EEBDF0BCF6CA891CD756EABBA870FEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension */,
+				EDDE91248B19F1898019FC92E1DD29B4 /* Pods-SKNetMintorLib_Example */,
+				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */,
+				BFFD80E79B530426BBFEAFD42A3828D4 /* SKNetMintorLib */,
+				7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F859197B4A5C475163CC9BA4E11C7416 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				468F697EFED798BBA9D964508E269D1D /* MJExtension.h */,
+				F2646477E10A183C3346BB94CB100016 /* MJExtensionConst.h */,
+				4FFAEB667C30B618194148AAEE99B8B2 /* MJExtensionConst.m */,
+				53B22B15BE360EBD60008BF0504F79DB /* MJFoundation.h */,
+				2588303AEEE6E5386F039CB1173CA535 /* MJFoundation.m */,
+				917B30A52618BA90B8D86052523C0327 /* MJProperty.h */,
+				04DD6318F28F0DA3B2C345A30D596954 /* MJProperty.m */,
+				4B2473141B7D2AD7B8C8B9083C47CA61 /* MJPropertyKey.h */,
+				9EE22DA1B87E00663A749F55CB9B1FA4 /* MJPropertyKey.m */,
+				3B4CA963109E5E37C6EB29B982A7F0AD /* MJPropertyType.h */,
+				5799EDABAF5E136C27C5FA32C1C17181 /* MJPropertyType.m */,
+				64B490307323E313459C016CC9E3BDD6 /* NSObject+MJClass.h */,
+				4D207AC8426F8AAFE21D1C6E5E3CADC1 /* NSObject+MJClass.m */,
+				AC111921302D48A5FA6FD7F195262C9D /* NSObject+MJCoding.h */,
+				3497E0DB2E74E2BEB96168101AE170F4 /* NSObject+MJCoding.m */,
+				8A89FF64F16F5B2D11432A8EDC05A9C1 /* NSObject+MJKeyValue.h */,
+				FFE8BD7091A6517AA9141A15D3E99A5D /* NSObject+MJKeyValue.m */,
+				AE93AB583B62DE8F34FCCD7A9404D6D4 /* NSObject+MJProperty.h */,
+				DAD2565299E04970B1AC0EA1F7184892 /* NSObject+MJProperty.m */,
+				A2584F56B98ACC4437AF559317BACF6E /* NSString+MJExtension.h */,
+				555C4C7EBAF946E1E5B7C1DB0BC0B689 /* NSString+MJExtension.m */,
+				86B0B5C32B2DC5E045D546667663DF72 /* Support Files */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		F861B63D04F68170C7F2211B44285824 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				9850A2904FA847AAA21C105E8C683AAA /* qs_mcc_mnc_mini.json */,
+			);
+			name = json;
+			path = SKNetMintorLib/Assets/json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F44603758E2F1AD4EF3CD47FFC23238 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3296E1E1BCEAEE6294A3FE8562C0EFC /* Reachability.h in Headers */,
+				44F4F19AD4287696C5F58310CA90D384 /* Reachability-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65698788A38D6A188CBC7939C6A94525 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DC154CACD614244DE45A53CE08EF0D /* MJExtension.h in Headers */,
+				CE9F398B1DAD84FEA79B6E830A05E852 /* MJExtension-umbrella.h in Headers */,
+				5807E0632368B365308B44C5AE6973BD /* MJExtensionConst.h in Headers */,
+				1339E6C9911F6C3F413CF37B1DB1207A /* MJFoundation.h in Headers */,
+				6130390A28FACC2AAB743924489049C0 /* MJProperty.h in Headers */,
+				D6B9216743757D8CCF0DC1BAFAAEFBE6 /* MJPropertyKey.h in Headers */,
+				886B4AC9B1FE36EFF7CD38820E10BFAD /* MJPropertyType.h in Headers */,
+				A36B349F4F080AAA4038E80CBFCD0140 /* NSObject+MJClass.h in Headers */,
+				CCD4362E8522B5BC2820666098E91B93 /* NSObject+MJCoding.h in Headers */,
+				37F6A3BECF37C125152A3BBA232AD7DC /* NSObject+MJKeyValue.h in Headers */,
+				AC437AB3F30FD2D50B2F02256A50BC22 /* NSObject+MJProperty.h in Headers */,
+				6E5BA38F45C9B904BAA86970852F0A9E /* NSString+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EE7358E2BC7FB363139991E81FA586 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0002442FEF5B25939C8BBDD869483C /* Pods-SKNetMintorLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE102FB6A16B69B91A348866CE56B688 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE874C1D62FEE28E0C4FCDCDC17DE26 /* NSString+QSFlushRecordHash.h in Headers */,
+				E46F24BE0B8358552D63E9F2699C71D0 /* QSEventFlush.h in Headers */,
+				4043FBF2E3FE624712AEBF86AEAB4416 /* QSEventTracker.h in Headers */,
+				AE3E795B489EA2B7EBD380E8BBB29B66 /* QSFileStore.h in Headers */,
+				F5510E6F351BB792D5194F3874451942 /* QSGZipUtility.h in Headers */,
+				AC06E00C045EBFF6245AF0DA32706372 /* QSNetAnalyticsService.h in Headers */,
+				296005741ABAEB1ECBAD73392B97C1DC /* QSNetDataBase.h in Headers */,
+				81009737F0286933BBBB62EF989F1593 /* QSNetEventRecordModel.h in Headers */,
+				A51A35AB6D29EC29E2D6738B0993E9DC /* QSNetEventStore.h in Headers */,
+				151F1C2D63F209789434CEC8A1A8F1FB /* QSNetMintorConfig.h in Headers */,
+				E43824DC0A8C4D932E63C4EC2B2286A3 /* QSNetSessionService.h in Headers */,
+				CA59C86DFA35EE9D13FB73DC45BA788D /* QSSecurityPolicy.h in Headers */,
+				B38AEAB758CBC635199FFF0B204DC0DD /* SKNetMintorLib-umbrella.h in Headers */,
+				7C4A1B74FD2BC0938E353B2C53B094CC /* SKSingleton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0772F96A671D38CB333D1B264C46AE1B /* SKNetMintorLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED19C6621E8A8927287997F5BE58B436 /* Build configuration list for PBXNativeTarget "SKNetMintorLib" */;
+			buildPhases = (
+				AE102FB6A16B69B91A348866CE56B688 /* Headers */,
+				9A5B9D7A9CECAFBD7A39CD08DCAB9994 /* Sources */,
+				143D6DF96667AFAB6C033D0F8F663BFA /* Frameworks */,
+				8B45E48904F0CD76E9CB96DBC31604F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC751B1D6C2111448A45E9F6E541097 /* PBXTargetDependency */,
+				6446EC727ED8323B2DC7C43CD3AB752C /* PBXTargetDependency */,
+				CCEC14310D379728C4EC5D2AEDC88BEF /* PBXTargetDependency */,
+			);
+			name = SKNetMintorLib;
+			productName = SKNetMintorLib;
+			productReference = BFFD80E79B530426BBFEAFD42A3828D4 /* SKNetMintorLib */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D268A7665B36CDB9436B0809E0E3055 /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildPhases = (
+				65698788A38D6A188CBC7939C6A94525 /* Headers */,
+				F9ACB1917E93605EE8CFF449459A3309 /* Sources */,
+				87AF06A7403625E7F72F0B1C7F93C819 /* Frameworks */,
+				B8E8D5E5D1ED0D861BF0C3F5228B5E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExtension;
+			productName = MJExtension;
+			productReference = 2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F9352F419A1E6C8E5A3745336B41D81 /* SKNetMintorLib-SKNetMintorLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4C0DE155543761DB545FDC3E9B93B3 /* Build configuration list for PBXNativeTarget "SKNetMintorLib-SKNetMintorLib" */;
+			buildPhases = (
+				E98E705F13BDC1DB92B568569E03198D /* Sources */,
+				8F8ED24DB3E68ABA9960871D01A36001 /* Frameworks */,
+				3DF13B53B799BC24936F12C17E66A5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKNetMintorLib-SKNetMintorLib";
+			productName = SKNetMintorLib;
+			productReference = 7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0933C293D6F3585115F511022948B4 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				3F44603758E2F1AD4EF3CD47FFC23238 /* Headers */,
+				48DBF8F317733652C8AE9B33B64618BC /* Sources */,
+				4B3EBB2EBF47613FD659F77CB43FF7FD /* Frameworks */,
+				C5A3257F5DD43790266FA0EACF2E73B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9E74AE89F6A33D14F3B52E75EA3F581 /* Pods-SKNetMintorLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DED4AB7D0302F7DE6D4F13AD177377 /* Build configuration list for PBXNativeTarget "Pods-SKNetMintorLib_Example" */;
+			buildPhases = (
+				69EE7358E2BC7FB363139991E81FA586 /* Headers */,
+				F5ADD6F7B8FC959699490BABE8B3C5FB /* Sources */,
+				0AD5172434FBE09F95F39A1DF055EAE2 /* Frameworks */,
+				9B366551A506F7C2D8C538E568561F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99329E04C7BBC273397BBCF5938E63B /* PBXTargetDependency */,
+				D1CAF538DD59DF75BC8C775A77A9A797 /* PBXTargetDependency */,
+				297206E8AC2DE1555CA8283AA0948E64 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKNetMintorLib_Example";
+			productName = Pods_SKNetMintorLib_Example;
+			productReference = EDDE91248B19F1898019FC92E1DD29B4 /* Pods-SKNetMintorLib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9F9352F419A1E6C8E5A3745336B41D81 = {
+						DevelopmentTeam = CRR36HUCJ3;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EEBDF0BCF6CA891CD756EABBA870FEFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */,
+				F9E74AE89F6A33D14F3B52E75EA3F581 /* Pods-SKNetMintorLib_Example */,
+				CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */,
+				0772F96A671D38CB333D1B264C46AE1B /* SKNetMintorLib */,
+				9F9352F419A1E6C8E5A3745336B41D81 /* SKNetMintorLib-SKNetMintorLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF13B53B799BC24936F12C17E66A5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99ED522D09512A5E4F6BE1C654C90E1 /* json in Resources */,
+				EB0F1D8E372E3AE876E444EA2ACCC433 /* qs_mcc_mnc_mini.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B45E48904F0CD76E9CB96DBC31604F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B8486960821C2E05BFB3013E95DA79 /* SKNetMintorLib.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B366551A506F7C2D8C538E568561F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E8D5E5D1ED0D861BF0C3F5228B5E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A3257F5DD43790266FA0EACF2E73B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48DBF8F317733652C8AE9B33B64618BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE19395A7F8F8200080DEEE4C7A257F /* Reachability.m in Sources */,
+				E811941E2ACD5310D24D107FA8FCD6FA /* Reachability-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5B9D7A9CECAFBD7A39CD08DCAB9994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C91268F00776874F9E217637AF4D97 /* NSString+QSFlushRecordHash.m in Sources */,
+				FAD283B2F77C21CBA844B410A3CF6FAD /* QSEventFlush.m in Sources */,
+				0CAA96EAD1425280D3D368E7D832AB4C /* QSEventTracker.m in Sources */,
+				0FF2C57630806BA1FBBC3D8AE73030F6 /* QSFileStore.m in Sources */,
+				0BD241103A75B1EF391C8C974FB03CA4 /* QSGZipUtility.m in Sources */,
+				D3E6EFAD8CB2B547093944B99DF6708E /* QSNetAnalyticsService.m in Sources */,
+				2F3065FE6A069BED37A0B1B0FD2D8841 /* QSNetDataBase.m in Sources */,
+				4062F43B646EF970C0FC4EE69A27511D /* QSNetEventRecordModel.m in Sources */,
+				5159E7F7D6474C3EA614C74F4726CB10 /* QSNetEventStore.m in Sources */,
+				D451025A4FE37FC2C81131F2470D001D /* QSNetSessionService.m in Sources */,
+				D194133AEB4B0F7E7743130471DB9A85 /* QSSecurityPolicy.m in Sources */,
+				34702056D06A8337E5A38D308732C779 /* SKNetMintorLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98E705F13BDC1DB92B568569E03198D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5ADD6F7B8FC959699490BABE8B3C5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A45041B4F3DC7BDB2406AB00F2F7470 /* Pods-SKNetMintorLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9ACB1917E93605EE8CFF449459A3309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86469EDD5558A59BA4109620C6724E8B /* MJExtension-dummy.m in Sources */,
+				8C403AA7D32772AB3A3D4E60F41FE066 /* MJExtensionConst.m in Sources */,
+				F0D6C8DDEFDF0F3A615478F18522F28C /* MJFoundation.m in Sources */,
+				04BCB9A795A9F6FCFE32F445FF9BD723 /* MJProperty.m in Sources */,
+				0B492FFEC27BBC3C6E2B8F0333B05FF6 /* MJPropertyKey.m in Sources */,
+				94EEDF6D32DFE12B049F9FDF67F48373 /* MJPropertyType.m in Sources */,
+				F1D87801447F8DD985630C5665F159C3 /* NSObject+MJClass.m in Sources */,
+				CBA797C292CF129755168E042F96531E /* NSObject+MJCoding.m in Sources */,
+				997795BA486CFE8E8F47247BA54075F8 /* NSObject+MJKeyValue.m in Sources */,
+				644ED9B098E888EBC0954AFB0C8AA6D4 /* NSObject+MJProperty.m in Sources */,
+				6B22D895CE423C00B2DDAC0EA08F4D7C /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297206E8AC2DE1555CA8283AA0948E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKNetMintorLib;
+			target = 0772F96A671D38CB333D1B264C46AE1B /* SKNetMintorLib */;
+			targetProxy = E0522F3E7A9BF26A30EAE9ED6705CC31 /* PBXContainerItemProxy */;
+		};
+		6446EC727ED8323B2DC7C43CD3AB752C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */;
+			targetProxy = 5D0DA0AD9C27DA337124D33F6BD2DF90 /* PBXContainerItemProxy */;
+		};
+		7CC751B1D6C2111448A45E9F6E541097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = AF1CDDFC92F888A49A775FD985D8A89A /* PBXContainerItemProxy */;
+		};
+		C99329E04C7BBC273397BBCF5938E63B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = 3FF1876A3FC2ECC4BDA5A51839B278C3 /* PBXContainerItemProxy */;
+		};
+		CCEC14310D379728C4EC5D2AEDC88BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SKNetMintorLib-SKNetMintorLib";
+			target = 9F9352F419A1E6C8E5A3745336B41D81 /* SKNetMintorLib-SKNetMintorLib */;
+			targetProxy = 0A735BB675C790698ECF080C9F5E77D4 /* PBXContainerItemProxy */;
+		};
+		D1CAF538DD59DF75BC8C775A77A9A797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */;
+			targetProxy = 8B46FBA31F4064B22625E166603C63EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DF08F4D398E47EAD08D5153FED90A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F079BFD9F97E15B8310D74EFCDC28E16 /* Reachability.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30D1E56E749D5ACF1D03613D621AD790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677E10963823879B01DBCE19E2F67525 /* Reachability.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31EE52BBF0901BB6001A0675B983ED79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FFC9BD3E00B5F2E4C3353C49DA1D2C /* MJExtension.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FB9FC5B3087184A2CCF2E9288E1973E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C3F88FE9E928ABE6EF3A5A9721842F /* Pods-SKNetMintorLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKNetMintorLib_Example/Pods-SKNetMintorLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKNetMintorLib_Example/Pods-SKNetMintorLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8907F99C8D8970A6156AE7120DF6B677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AC938DBF4D05A7B0DE07EF7B30DA68 /* SKNetMintorLib.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKNetMintorLib";
+				DEVELOPMENT_TEAM = CRR36HUCJ3;
+				IBSC_MODULE = SKNetMintorLib;
+				INFOPLIST_FILE = "Target Support Files/SKNetMintorLib/ResourceBundle-SKNetMintorLib-SKNetMintorLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				PRODUCT_NAME = SKNetMintorLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B61552EFDAA0A8B4FC02D048914FE448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7BEE82A1FFE4F1D87041EB71F3ECA3 /* SKNetMintorLib.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKNetMintorLib";
+				DEVELOPMENT_TEAM = CRR36HUCJ3;
+				IBSC_MODULE = SKNetMintorLib;
+				INFOPLIST_FILE = "Target Support Files/SKNetMintorLib/ResourceBundle-SKNetMintorLib-SKNetMintorLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				PRODUCT_NAME = SKNetMintorLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C294FDD0878130921362C9E5863B7432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D118E791DF419E948FC2E6330CC601 /* MJExtension.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEE7E09201D580A2419E68EA35F05BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7BEE82A1FFE4F1D87041EB71F3ECA3 /* SKNetMintorLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKNetMintorLib/SKNetMintorLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKNetMintorLib/SKNetMintorLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKNetMintorLib/SKNetMintorLib.modulemap";
+				PRODUCT_MODULE_NAME = SKNetMintorLib;
+				PRODUCT_NAME = SKNetMintorLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF1F03E8D2F5EE036CB2535DE50CD832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F09415FEFA5B304DC91440B4415F6E5 /* Pods-SKNetMintorLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKNetMintorLib_Example/Pods-SKNetMintorLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKNetMintorLib_Example/Pods-SKNetMintorLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5038C40B110DBF986D3200BF3E45E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AC938DBF4D05A7B0DE07EF7B30DA68 /* SKNetMintorLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKNetMintorLib/SKNetMintorLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKNetMintorLib/SKNetMintorLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKNetMintorLib/SKNetMintorLib.modulemap";
+				PRODUCT_MODULE_NAME = SKNetMintorLib;
+				PRODUCT_NAME = SKNetMintorLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D268A7665B36CDB9436B0809E0E3055 /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31EE52BBF0901BB6001A0675B983ED79 /* Debug */,
+				C294FDD0878130921362C9E5863B7432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C0933C293D6F3585115F511022948B4 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF08F4D398E47EAD08D5153FED90A55 /* Debug */,
+				30D1E56E749D5ACF1D03613D621AD790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4C0DE155543761DB545FDC3E9B93B3 /* Build configuration list for PBXNativeTarget "SKNetMintorLib-SKNetMintorLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61552EFDAA0A8B4FC02D048914FE448 /* Debug */,
+				8907F99C8D8970A6156AE7120DF6B677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DED4AB7D0302F7DE6D4F13AD177377 /* Build configuration list for PBXNativeTarget "Pods-SKNetMintorLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB9FC5B3087184A2CCF2E9288E1973E /* Debug */,
+				DF1F03E8D2F5EE036CB2535DE50CD832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED19C6621E8A8927287997F5BE58B436 /* Build configuration list for PBXNativeTarget "SKNetMintorLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE7E09201D580A2419E68EA35F05BE3 /* Debug */,
+				E5038C40B110DBF986D3200BF3E45E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
