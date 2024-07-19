@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SKNetMintorLib'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of SKNetMintorLib.'
+  s.summary          = '网络日志库，私有化部署'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/shuaike/SKNetMintorLib'
+  s.homepage         = 'https://github.com/shuaikel/SKNetMintorLib.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shuaike' => '718401263@qq.com' }
-  s.source           = { :git => 'https://github.com/shuaike/SKNetMintorLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shuaikel/SKNetMintorLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

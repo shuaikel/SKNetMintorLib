@@ -16,7 +16,7 @@
 		0FF2C57630806BA1FBBC3D8AE73030F6 /* QSFileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FCABA9438D328F5CC9DB409732485B /* QSFileStore.m */; };
 		1339E6C9911F6C3F413CF37B1DB1207A /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B22B15BE360EBD60008BF0504F79DB /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		151F1C2D63F209789434CEC8A1A8F1FB /* QSNetMintorConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A6BE5C476AA66313445CD9B1751CEA /* QSNetMintorConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24B8486960821C2E05BFB3013E95DA79 /* SKNetMintorLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib.bundle */; };
+		24B8486960821C2E05BFB3013E95DA79 /* SKNetMintorLib-SKNetMintorLib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib-SKNetMintorLib */; };
 		296005741ABAEB1ECBAD73392B97C1DC /* QSNetDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA32F59C10EBECDFA086AB5297C1FBB /* QSNetDataBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F3065FE6A069BED37A0B1B0FD2D8841 /* QSNetDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DA675B156219299E61B10F9CC0208 /* QSNetDataBase.m */; };
 		33DC154CACD614244DE45A53CE08EF0D /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 468F697EFED798BBA9D964508E269D1D /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,7 +124,7 @@
 		0AB930D9DE11DC0D61B42EE8BC99C068 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		0F448180B66380AB5875D55B1DA54916 /* QSNetSessionService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSNetSessionService.h; path = SKNetMintorLib/Classes/QSNetSessionService.h; sourceTree = "<group>"; };
 		152CC5DD4413D6630D273F42EE7F6E89 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
-		166BE8EBD3402BB220B13B11EBAB1306 /* json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = json; path = SKNetMintorLib/Assets/json; sourceTree = "<group>"; };
+		166BE8EBD3402BB220B13B11EBAB1306 /* json */ = {isa = PBXFileReference; includeInIndex = 1; name = json; path = SKNetMintorLib/Assets/json; sourceTree = "<group>"; };
 		180A724091B9FF12D66AEC226D2B2C48 /* NSString+QSFlushRecordHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QSFlushRecordHash.m"; path = "SKNetMintorLib/Classes/NSString+QSFlushRecordHash.m"; sourceTree = "<group>"; };
 		196A955E2F048A6000C09A0764D3BF72 /* QSFileStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSFileStore.h; path = SKNetMintorLib/Classes/QSFileStore.h; sourceTree = "<group>"; };
 		1DE8C27BC6DACBF5239FA726CD46E6D3 /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		32EB03DE5AAC68B97699446E3FE1C0BA /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
 		3497E0DB2E74E2BEB96168101AE170F4 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		34FFC9BD3E00B5F2E4C3353C49DA1D2C /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
-		38DFD4A5BBD2AFB5E2CFB14F9273D335 /* SKNetMintorLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SKNetMintorLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38DFD4A5BBD2AFB5E2CFB14F9273D335 /* SKNetMintorLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKNetMintorLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		38F77ED39059B9CFD6C1BBD3348966A3 /* Pods-SKNetMintorLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKNetMintorLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B4CA963109E5E37C6EB29B982A7F0AD /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
 		3BA543F488DFD0450FACCC871F214360 /* NSString+QSFlushRecordHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QSFlushRecordHash.h"; path = "SKNetMintorLib/Classes/NSString+QSFlushRecordHash.h"; sourceTree = "<group>"; };
@@ -166,9 +166,9 @@
 		6E5D0FE57CFE7CAA0AD5A368DE78A59A /* QSNetEventStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSNetEventStore.m; path = SKNetMintorLib/Classes/QSNetEventStore.m; sourceTree = "<group>"; };
 		70FCABA9438D328F5CC9DB409732485B /* QSFileStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSFileStore.m; path = SKNetMintorLib/Classes/QSFileStore.m; sourceTree = "<group>"; };
 		78F21D9727FC85C370EACFEDF41C2734 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
-		7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKNetMintorLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib-SKNetMintorLib */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SKNetMintorLib-SKNetMintorLib"; path = SKNetMintorLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7BEE82A1FFE4F1D87041EB71F3ECA3 /* SKNetMintorLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKNetMintorLib.debug.xcconfig; sourceTree = "<group>"; };
-		823A4A2CE0B1A3AFF74B62645A6F3859 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		823A4A2CE0B1A3AFF74B62645A6F3859 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		859E34643EC9602E23B9306C263DA9ED /* Pods-SKNetMintorLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKNetMintorLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		86F1B83CAD69C0BCA603A3447C69E361 /* SKNetMintorLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKNetMintorLib-Info.plist"; sourceTree = "<group>"; };
 		89E30CBC129365BAA76BCDDFF5C032A9 /* QSEventFlush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSEventFlush.h; path = SKNetMintorLib/Classes/QSEventFlush.h; sourceTree = "<group>"; };
@@ -177,9 +177,9 @@
 		917B30A52618BA90B8D86052523C0327 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
 		950AF4CDFBEA96634770093A87CBFDEA /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
 		97AC5F508FA623885A9F7FCBDB1B21E9 /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
-		9850A2904FA847AAA21C105E8C683AAA /* qs_mcc_mnc_mini.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = qs_mcc_mnc_mini.json; sourceTree = "<group>"; };
+		9850A2904FA847AAA21C105E8C683AAA /* qs_mcc_mnc_mini.json */ = {isa = PBXFileReference; includeInIndex = 1; path = qs_mcc_mnc_mini.json; sourceTree = "<group>"; };
 		99A6BE5C476AA66313445CD9B1751CEA /* QSNetMintorConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSNetMintorConfig.h; path = SKNetMintorLib/Classes/QSNetMintorConfig.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE22DA1B87E00663A749F55CB9B1FA4 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		A2584F56B98ACC4437AF559317BACF6E /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		A2C96E5DDF86559EDDB958F363349B3E /* QSNetAnalyticsService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSNetAnalyticsService.m; path = SKNetMintorLib/Classes/QSNetAnalyticsService.m; sourceTree = "<group>"; };
@@ -206,7 +206,7 @@
 		F079BFD9F97E15B8310D74EFCDC28E16 /* Reachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.debug.xcconfig; sourceTree = "<group>"; };
 		F14008B466AD2D8767428022FF895BB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F2646477E10A183C3346BB94CB100016 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
-		F285878F9399D6E4D39965EE670F92BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F285878F9399D6E4D39965EE670F92BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F62B8716D0B0406EC6AF68ABDADA1252 /* QSNetEventStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSNetEventStore.h; path = SKNetMintorLib/Classes/QSNetEventStore.h; sourceTree = "<group>"; };
 		FC7DA675B156219299E61B10F9CC0208 /* QSNetDataBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSNetDataBase.m; path = SKNetMintorLib/Classes/QSNetDataBase.m; sourceTree = "<group>"; };
 		FD114DE939A8D81BB13991E0D5DC0A33 /* QSEventTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSEventTracker.h; path = SKNetMintorLib/Classes/QSEventTracker.h; sourceTree = "<group>"; };
@@ -362,6 +362,7 @@
 				0AB930D9DE11DC0D61B42EE8BC99C068 /* Reachability.m */,
 				BAEA3D03C87931952A4CBEEF20023F5F /* Support Files */,
 			);
+			name = Reachability;
 			path = Reachability;
 			sourceTree = "<group>";
 		};
@@ -439,7 +440,7 @@
 				EDDE91248B19F1898019FC92E1DD29B4 /* Pods-SKNetMintorLib_Example */,
 				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */,
 				BFFD80E79B530426BBFEAFD42A3828D4 /* SKNetMintorLib */,
-				7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib.bundle */,
+				7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib-SKNetMintorLib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -470,6 +471,7 @@
 				555C4C7EBAF946E1E5B7C1DB0BC0B689 /* NSString+MJExtension.m */,
 				86B0B5C32B2DC5E045D546667663DF72 /* Support Files */,
 			);
+			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -598,7 +600,7 @@
 			);
 			name = "SKNetMintorLib-SKNetMintorLib";
 			productName = SKNetMintorLib;
-			productReference = 7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib.bundle */;
+			productReference = 7AD9D096D04D73DF76980EADA48885CA /* SKNetMintorLib-SKNetMintorLib */;
 			productType = "com.apple.product-type.bundle";
 		};
 		CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */ = {
@@ -646,13 +648,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
-				TargetAttributes = {
-					9F9352F419A1E6C8E5A3745336B41D81 = {
-						DevelopmentTeam = CRR36HUCJ3;
-					};
-				};
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -690,7 +687,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B8486960821C2E05BFB3013E95DA79 /* SKNetMintorLib.bundle in Resources */,
+				24B8486960821C2E05BFB3013E95DA79 /* SKNetMintorLib-SKNetMintorLib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -912,6 +909,23 @@
 			};
 			name = Debug;
 		};
+		4AA896DB841CDA36B6DF751AE7C7347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7BEE82A1FFE4F1D87041EB71F3ECA3 /* SKNetMintorLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKNetMintorLib";
+				IBSC_MODULE = SKNetMintorLib;
+				INFOPLIST_FILE = "Target Support Files/SKNetMintorLib/ResourceBundle-SKNetMintorLib-SKNetMintorLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				PRODUCT_NAME = SKNetMintorLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		6FB9FC5B3087184A2CCF2E9288E1973E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45C3F88FE9E928ABE6EF3A5A9721842F /* Pods-SKNetMintorLib_Example.debug.xcconfig */;
@@ -1000,45 +1014,12 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		8907F99C8D8970A6156AE7120DF6B677 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5AC938DBF4D05A7B0DE07EF7B30DA68 /* SKNetMintorLib.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKNetMintorLib";
-				DEVELOPMENT_TEAM = CRR36HUCJ3;
-				IBSC_MODULE = SKNetMintorLib;
-				INFOPLIST_FILE = "Target Support Files/SKNetMintorLib/ResourceBundle-SKNetMintorLib-SKNetMintorLib-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
-				PRODUCT_NAME = SKNetMintorLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B61552EFDAA0A8B4FC02D048914FE448 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D7BEE82A1FFE4F1D87041EB71F3ECA3 /* SKNetMintorLib.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKNetMintorLib";
-				DEVELOPMENT_TEAM = CRR36HUCJ3;
-				IBSC_MODULE = SKNetMintorLib;
-				INFOPLIST_FILE = "Target Support Files/SKNetMintorLib/ResourceBundle-SKNetMintorLib-SKNetMintorLib-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
-				PRODUCT_NAME = SKNetMintorLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		C294FDD0878130921362C9E5863B7432 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1101,6 +1082,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		D13304C6E5FBA3263663FCE45EF6FDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AC938DBF4D05A7B0DE07EF7B30DA68 /* SKNetMintorLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKNetMintorLib";
+				IBSC_MODULE = SKNetMintorLib;
+				INFOPLIST_FILE = "Target Support Files/SKNetMintorLib/ResourceBundle-SKNetMintorLib-SKNetMintorLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				PRODUCT_NAME = SKNetMintorLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1267,8 +1265,8 @@
 		6E4C0DE155543761DB545FDC3E9B93B3 /* Build configuration list for PBXNativeTarget "SKNetMintorLib-SKNetMintorLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B61552EFDAA0A8B4FC02D048914FE448 /* Debug */,
-				8907F99C8D8970A6156AE7120DF6B677 /* Release */,
+				4AA896DB841CDA36B6DF751AE7C7347D /* Debug */,
+				D13304C6E5FBA3263663FCE45EF6FDC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

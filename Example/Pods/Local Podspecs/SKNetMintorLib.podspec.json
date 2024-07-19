@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "A short description of SKNetMintorLib.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/shuaike/SKNetMintorLib",
+  "homepage": "https://github.com/shuaikel/SKNetMintorLib.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "shuaike": "718401263@qq.com"
   },
   "source": {
-    "git": "https://github.com/shuaike/SKNetMintorLib.git",
+    "git": "https://github.com/shuaikel/SKNetMintorLib.git",
     "tag": "1.0.0"
   },
   "platforms": {
